@@ -14,7 +14,7 @@ For building and running the application you need:
 mvnw spring-boot:run
 ```
 
-The application will be exposed via http://localhost:8080
+The application will be exposed on http://localhost:8080
 
 ## Test It
 
