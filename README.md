@@ -24,6 +24,7 @@ The application will be exposed via http://localhost:8080
 curl -H "Content-Type: application/json" -X POST http://localhost:8080/authenticate -d "{\"username\": \"jackie-sg\", \"password\": \"password\", \"country\": \"SG\"}"
 ```
 #### Login for MY Authentication Provider
+```shell
 curl -H "Content-Type: application/json" -X POST http://localhost:8080/authenticate -d "{\"username\": \"jackie-my\", \"password\": \"password\", \"country\": \"MY\"}"
 ```
 
